@@ -305,7 +305,7 @@ footer {
 		text-transform: uppercase;
 	}
 	
-	.navbar-nav ul li::after {
+	ul li::after {
 		display: none;
 	}
 	
@@ -313,7 +313,7 @@ footer {
 		display: block;
 	}
 	
-	.products h2 {
+	.product-card h2 {
 		text-align: center;
 	}
 	
@@ -344,4 +344,95 @@ footer {
 	.footer-right {
 		text-align: center; 
 	}	
+}
+
+/*					Tablet					*/
+@media screen and (max-width: 768px) {
+
+	.banner h1 {
+		padding: 22px;
+	}
+
+	.about .content-box {
+		padding: 0 50px;
+	}
+
+	footer {
+		padding: 55px 40px;
+	}
+
+	.footer-left {
+		margin-bottom: 50px;
+	}
+
+	.footer-brand {
+		margin-bottom: 30px;
+	}
+
+}
+
+/*					Phone					*/
+@media screen and (max-width: 576px) {
+
+	header {
+		background: url(./images/mobile/image-hero.jpg) center no-repeat;
+		background-size: cover;
+		padding: 40px 25px;
+	}
+
+	.navbar {
+		margin-bottom: 160px;
+	}
+
+	.navbar-logo img {
+		max-width: 145px;
+	}
+
+	.banner h1 {
+		margin-bottom: 175px;
+	}
+
+	.about .about-img {
+		margin-bottom: 50px;
+	}
+
+	.about .about-content {
+		padding: 0 15px;
+	}
+
+	.about .about-content h2 {
+		margin-bottom: 20px;
+	}
+
+	.product h2 {
+		margin-bottom: 20px;
+	}
+
+	.product-grid {
+		grid-gap: 25px;
+	}
+
+	.product-card {
+		height: 117px;
+	}
+
+	.product-card h3 {
+		bottom: 15px;
+		left: 20px;
+	}
+
+	.all-btn {
+		margin-top: 35px;
+	}
+
+	.footer-nav ul {
+		grid-template-columns: 1fr;
+		grid-gap: 20px;
+		text-align: center;
+	}
+
+	.social-links {
+		margin-bottom: 15px;
+	}
+
 }
